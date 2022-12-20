@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: rgb(33, 41, 48);
+}
+
+.container {
+    margin: 1%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 10px 5px 5px rgb(77, 77, 77);
+    border-radius: 10px;
+}
+
+.item {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5em;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    height: 160px;
+}
+
+.buy {
+    width: 100%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.separator {
+    border-left: 1px solid rgb(207, 207, 207);
+    height: auto;
+}
