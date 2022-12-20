@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.battery {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 150px;
+    margin: 2%;
+}
+
+.corpus-1 {
+    border: 6px solid black;
+    width: 95%;
+    height: 100%;
+}
+
+.corpus-2 {
+    border: 6px solid black;
+    height: 15%;
+    align-self: center;
+}
+
+.low-charge {
+    background-color: brown;
+    width: 30%;
+    height: 100%;
+}
+
+.medium-charge {
+    background-color: goldenrod;
+    width: 65%;
+    height: 100%;
+}
+
+.full-charge {
+    background-color: darkgreen;
+    width: 100%;
+    height: 100%;
+}
