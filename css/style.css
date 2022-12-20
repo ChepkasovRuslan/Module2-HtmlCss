@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.floating-message {
+    position: absolute;
+    overflow: hidden;
+    left: -42%;
+    width: 45%;
+    background-color: rgb(20, 39, 56);
+    display: flex;
+    justify-content: center;
+
+}
+
+.floating-message:hover {
+    animation: fromLeftToRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.message-content {
+    color: white;
+    word-wrap: break-word;
+    display: flex;
+}
+
+.image {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.callback {
+    background-color: rgb(201, 157, 48);
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.callback>p {
+    writing-mode: sideways-lr;
+}
+
+@keyframes fromLeftToRight {
+    0% {
+        left: -42%;
+    }
+
+    100% {
+        left: 1%;
+    }
+}
