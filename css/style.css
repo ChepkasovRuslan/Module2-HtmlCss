@@ -8,7 +8,6 @@ body {
     top: 40%;
     left: -42%;
     width: 45%;
-    background-color: rgb(20, 39, 56);
     display: flex;
     justify-content: center;
 
@@ -19,6 +18,7 @@ body {
 }
 
 .message-content {
+    background-color: rgb(20, 39, 56);
     color: white;
     word-wrap: break-word;
     display: flex;
@@ -33,11 +33,14 @@ body {
 .callback {
     background-color: rgb(201, 157, 48);
     border-radius: 0px 20px 20px 0px;
-
 }
 
 .callback>p {
     writing-mode: sideways-lr;
+}
+
+.padding {
+    padding: 5px;
 }
 
 @keyframes fromLeftToRight {
