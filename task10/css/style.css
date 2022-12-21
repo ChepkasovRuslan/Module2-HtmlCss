@@ -1,11 +1,29 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
+    font-family: sans-serif
+}
+
+main {
+    background-color: rgb(229, 229, 229)
+}
+
+
+footer {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-inline: 25%;
+    background-color: #333333;
+}
+
+.menu-list {
+    padding-inline: 10%;
 }
 
 .nav-bar {
-    padding: 4%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-inline: 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,4 +37,131 @@
 
 .nav-page:hover {
     color: #f4c7b6;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.menu-header {
+    font-family: 'Oswald';
+    padding-top: 5%;
+    font-size: 60px;
+}
+
+.main-text {
+    font-size: 16px;
+    line-height: 25.6px;
+    margin-top: 20px;
+}
+
+.red-text {
+    color: rgb(241, 44, 14);
+}
+
+.gray-text {
+    color: rgb(17, 17, 17);
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-header {
+    font-family: 'Oswald';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.item {
+    max-width: 560px;
+    margin: 20px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+}
+
+.item-image {
+    height: 249px;
+    width: 300px;
+}
+
+.item-text-container {
+    padding: 25px;
+}
+
+.add-item-btn {
+    background-color: rgb(229, 229, 229);
+    border-style: none;
+    padding-inline: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.add-item-btn:hover {
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+
+.link {
+    color: rgb(241, 44, 14);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: rgb(185, 30, 6);
+}
+
+.text-footer {
+    font-size: 0.8em;
+    color: white;
+}
+
+.bottom-block {
+    margin-top: 37px;
+    padding-bottom: 57px;
+}
+
+.burger-menu {
+    cursor: pointer;
+    height: 40px;
+}
+
+@media (max-width: 764px) {
+    .item {
+        display: initial;
+        width: 700px;
+    }
+}
+
+@media (min-width: 988px) {
+    .nav-pages {
+        display: initial;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 988px) {
+    .nav-pages {
+        display: none;
+    }
+
+    .burger-menu {
+        display: initial;
+    }
 }
