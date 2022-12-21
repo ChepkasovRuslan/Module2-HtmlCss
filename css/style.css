@@ -3,8 +3,9 @@ body {
 }
 
 .floating-message {
+    transition: all 0.8s ease 0s;
     position: absolute;
-    overflow: hidden;
+    top: 40%;
     left: -42%;
     width: 45%;
     background-color: rgb(20, 39, 56);
@@ -14,11 +15,7 @@ body {
 }
 
 .floating-message:hover {
-    animation: fromLeftToRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
+    transform: translateX(100%);
 }
 
 .message-content {
