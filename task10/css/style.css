@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-page {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.nav-page:hover {
+    color: #f4c7b6;
+}
