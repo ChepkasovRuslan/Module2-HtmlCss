@@ -99,3 +99,35 @@ footer {
 .img-main {
     z-index: -1;
 }
+
+.burger-menu {
+    height: 40px;
+}
+
+@media (max-width: 600px) {
+    .main-header {
+        font-size: 2.3em;
+    }
+
+    .navigation-item {
+        display: none;
+    }
+
+    .burger-menu {
+        display: inherit;
+    }
+}
+
+@media (min-width: 600px) {
+    .main-header {
+        font-size: 4.3em;
+    }
+
+    .navigation-item {
+        display: inherit;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
