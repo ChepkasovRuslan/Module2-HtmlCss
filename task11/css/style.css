@@ -36,7 +36,7 @@ main {
 }
 
 .content-info {
-  width: 60%;
+  width: 40%;
   display: inline;
 }
 
@@ -54,6 +54,8 @@ main {
 }
 
 .sml-img-info {
+  display: inline-block;
+  align-self: flex-end;
   margin-right: 30px;
   width: 209px;
   height: 225px;
@@ -66,7 +68,6 @@ main {
 }
 
 .text-info {
-  max-width: 60%;
   color: white;
   font-style: italic;
 }
@@ -112,6 +113,10 @@ main {
 
 .center-text {
   text-align: center;
+}
+
+.images-info {
+  display: flex;
 }
 
 @media (min-width: 988px) {
