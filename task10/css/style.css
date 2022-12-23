@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif
 }
 
 main {
@@ -17,13 +16,13 @@ footer {
 }
 
 .menu-list {
-    padding-inline: 10%;
+    padding-inline: 13%;
 }
 
 .nav-bar {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-inline: 4%;
+    padding-inline: 16%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +31,12 @@ footer {
 .nav-page {
     text-decoration: none;
     color: black;
-    margin-left: 10px;
+    padding-inline: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.selected-page {
+    color: rgb(240, 85, 16);
 }
 
 .nav-page:hover {
@@ -47,9 +51,12 @@ footer {
     font-family: 'Oswald';
     padding-top: 5%;
     font-size: 60px;
+    font-weight: 400;
 }
 
 .main-text {
+    font-family: 'Open Sans', sans-serif;
+    overflow-wrap: break-word;
     font-size: 16px;
     line-height: 25.6px;
     margin-top: 20px;
@@ -137,6 +144,12 @@ footer {
 .burger-menu {
     cursor: pointer;
     height: 40px;
+}
+
+.center-margin {
+    width: 793px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 764px) {
