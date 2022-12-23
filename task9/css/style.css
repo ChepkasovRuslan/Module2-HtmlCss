@@ -13,7 +13,7 @@ header {
 }
 
 main {
-    margin-inline: 20%;
+    margin-inline: 10%;
     margin-bottom: 3%;
 }
 
@@ -47,31 +47,33 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-inline: 14%;
 }
 
 .main-header {
     text-align: center;
     color: #0045be;
     font-size: 4.3em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Merriweather, serif;
     margin-bottom: 5%;
+    font-weight: bold;
     margin-top: 5%;
 }
 
 .items-container {
     display: flex;
     justify-content: center;
-    margin: 2%;
-    margin-top: -25%;
+    padding-inline: 10%;
+    margin-top: -17%;
     flex-wrap: wrap;
 }
 
 .item {
     background-color: white;
-    width: 190px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 16px;
+    padding: 20px;
     margin: 2%;
-    padding: 2%;
 }
 
 .item-header {
@@ -98,6 +100,7 @@ footer {
 
 .img-main {
     z-index: -1;
+    object-fit: contain;
 }
 
 .burger-menu {
