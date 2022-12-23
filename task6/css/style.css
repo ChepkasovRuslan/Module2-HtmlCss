@@ -1,11 +1,11 @@
-.nav-menu {
+.navMenu {
     display: flex;
     width: 1000px;
     height: 100px;
     position: relative;
 }
 
-.circle-item {
+.circleItem {
     margin: 50px;
     width: 70px;
     height: 70px;
@@ -21,11 +21,11 @@
     background-color: rgb(99, 223, 126);
 }
 
-.not-finished {
+.notFinished {
     background-color: gray;
 }
 
-.circle-item>p {
+.circleItem p {
     color: white;
     font-size: 1.4em;
     text-align: center;
