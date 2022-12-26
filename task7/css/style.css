@@ -1,54 +1,43 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .floating-message {
-    transition: all 0.8s ease 0s;
-    position: absolute;
-    top: 40%;
-    left: -42%;
-    width: 45%;
-    display: flex;
-    justify-content: center;
+  transition: all 0.8s ease 0s;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: -130px;
+  margin-left: -350px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
 
 }
 
 .floating-message:hover {
-    transform: translateX(100%);
+  transform: translateX(90%);
 }
 
 .message-content {
-    background-color: rgb(20, 39, 56);
-    color: white;
-    word-wrap: break-word;
-    display: flex;
+  background-color: rgb(20, 39, 56);
+  color: white;
+  word-wrap: break-word;
+  display: flex;
 }
 
 .image {
-    padding: 10px;
-    width: 100px;
-    height: 100px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 .callback {
-    background-color: rgb(201, 157, 48);
-    border-radius: 0px 20px 20px 0px;
+  background-color: rgb(201, 157, 48);
+  border-radius: 0px 20px 20px 0px;
 }
 
 .callback>p {
-    writing-mode: sideways-lr;
-}
-
-.padding {
-    padding: 5px;
-}
-
-@keyframes fromLeftToRight {
-    0% {
-        left: -42%;
-    }
-
-    100% {
-        left: 1%;
-    }
+  writing-mode: vertical-lr;
+  margin-top: 5px;
 }
