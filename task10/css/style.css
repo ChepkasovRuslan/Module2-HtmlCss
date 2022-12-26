@@ -1,241 +1,241 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 main {
-    margin: 0 auto;
-    background-color: rgb(229, 229, 229)
+  margin: 0 auto;
+  background-color: rgb(229, 229, 229)
 }
 
 
 footer {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-inline: 25%;
-    background-color: #333333;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-inline: 25%;
+  background-color: #333333;
 }
 
 .menu-list {
-    padding-inline: 1%;
+  padding-inline: 1%;
 }
 
 .nav-bar {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-inline: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-inline: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-page {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-decoration: none;
-    color: black;
-    padding-inline: 20px;
-    font-family: 'Open Sans', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: black;
+  padding-inline: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .selected-page {
-    color: rgb(240, 85, 16);
+  color: rgb(240, 85, 16);
 }
 
 .nav-page:hover {
-    color: #f4c7b6;
+  color: #f4c7b6;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .menu-header {
-    font-family: 'Oswald';
-    padding-top: 5%;
-    font-size: 60px;
-    font-weight: 400;
+  font-family: 'Oswald';
+  padding-top: 5%;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 .main-text {
-    font-family: 'Open Sans', sans-serif;
-    overflow-wrap: break-word;
-    font-size: 16px;
-    line-height: 25.6px;
-    margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-top: 20px;
 }
 
 .red-text {
-    color: rgb(241, 44, 14);
+  color: rgb(241, 44, 14);
 }
 
 .gray-text {
-    color: rgb(17, 17, 17);
+  color: rgb(17, 17, 17);
 }
 
 .italic-text {
-    font-style: italic;
+  font-style: italic;
 }
 
 .bold-text {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .items-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item-header {
-    font-weight: 400;
-    font-family: 'Oswald';
-    font-size: 30px;
-    margin: 20px 0 0;
+  font-weight: 400;
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin: 20px 0 0;
 }
 
 .item {
-    width: 545px;
-    margin: 15px;
-    background-color: white;
-    padding: 30px 0 30px 30px;
-    display: flex;
+  width: 545px;
+  margin: 15px;
+  background-color: white;
+  padding: 30px 0 30px 30px;
+  display: flex;
 }
 
 .item-image {
-    height: 255px;
-    width: 255px;
-    object-fit: cover;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+  height: 255px;
+  width: 255px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .item-text-container {
-    padding: 0 25px;
+  padding: 0 25px;
 }
 
 .add-item-btn {
-    text-transform: uppercase;
-    background-color: rgb(229, 229, 229);
-    border-style: none;
-    padding-inline: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 20px;
-    font-size: 0.875rem;
-    font-weight: 400;
+  text-transform: uppercase;
+  background-color: rgb(229, 229, 229);
+  border-style: none;
+  padding-inline: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  font-size: 0.875rem;
+  font-weight: 400;
 }
 
 .add-item-btn:hover {
-    background-color: rgb(172, 172, 172);
-    cursor: pointer;
+  background-color: rgb(172, 172, 172);
+  cursor: pointer;
 }
 
 .link {
-    color: rgb(241, 44, 14);
-    text-decoration: none;
-    font-weight: bold;
+  color: rgb(241, 44, 14);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .link:hover {
-    color: rgb(185, 30, 6);
+  color: rgb(185, 30, 6);
 }
 
 .text-footer {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.875rem;
-    color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  color: white;
 }
 
 .bottom-block {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    margin-top: 37px;
-    padding-bottom: 57px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin-top: 37px;
+  padding-bottom: 57px;
 }
 
 .burger-menu {
-    cursor: pointer;
-    height: 40px;
+  cursor: pointer;
+  height: 40px;
 }
 
 .center-margin {
-    width: 793px;
-    margin: 20px auto 0;
+  width: 793px;
+  margin: 20px auto 0;
 }
 
 @media (max-width: 1250px) {
-    .item {
-        width: 445px;
-    }
+  .item {
+    width: 445px;
+  }
 
-    .item-image {
-        width: 155px;
-    }
+  .item-image {
+    width: 155px;
+  }
 }
 
 @media (min-width: 1046px) {
-    .nav-pages {
-        display: initial;
-    }
+  .nav-pages {
+    display: initial;
+  }
 
-    .burger-menu {
-        display: none;
-    }
+  .burger-menu {
+    display: none;
+  }
 
 
 }
 
 @media (max-width: 1046px) {
-    .nav-pages {
-        display: none;
-    }
+  .nav-pages {
+    display: none;
+  }
 
-    .burger-menu {
-        display: initial;
-    }
+  .burger-menu {
+    display: initial;
+  }
 
-    .item-image {
-        width: 300px;
-    }
+  .item-image {
+    width: 300px;
+  }
 
-    .item {
-        width: 720px;
-    }
+  .item {
+    width: 720px;
+  }
 }
 
 @media (max-width: 817px) {
-    .item {
-        width: 540px;
-    }
+  .item {
+    width: 540px;
+  }
 
-    .center-margin {
-        width: 540px;
-    }
+  .center-margin {
+    width: 540px;
+  }
 
-    .item-image {
-        width: 225px;
-    }
+  .item-image {
+    width: 225px;
+  }
 }
 
 @media (max-width: 642px) {
-    .center-margin {
-        width: 340px;
-    }
+  .center-margin {
+    width: 340px;
+  }
 
-    .item-image {
-        width: 300px;
-        height: 200px;
-    }
+  .item-image {
+    width: 300px;
+    height: 200px;
+  }
 
-    .item {
-        padding: 30px 20px;
-        width: 300px;
-        display: initial;
-    }
+  .item {
+    padding: 30px 20px;
+    width: 300px;
+    display: initial;
+  }
 
-    .item-text-container {
-        padding: 0;
-    }
+  .item-text-container {
+    padding: 0;
+  }
 }
