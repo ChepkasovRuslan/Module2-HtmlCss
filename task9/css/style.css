@@ -1,160 +1,169 @@
 * {
-    font-family: sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
-    padding-top: 1%;
-    padding-inline: 12%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding-top: 1%;
+  padding-inline: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-inline: 25%;
-    background-color: #333333;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-inline: 25%;
+  background-color: #333333;
 }
 
 .navigation {
-    display: flex;
+  display: flex;
 }
 
 .navigation-item {
-    color: #0045be;
-    text-decoration: none;
-    padding-left: 30px;
+  color: #0045be;
+  text-decoration: none;
+  padding-left: 30px;
 }
 
 .upper-case {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .rounded {
-    border-radius: 50%;
-    width: 80%;
+  border-radius: 50%;
+  width: 80%;
 }
 
 .main-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-inline: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 18%;
 }
 
 .main-header {
-    text-align: center;
-    color: #0045be;
-    font-size: 72px;
-    font-family: Merriweather, serif;
-    margin-bottom: 5%;
-    font-weight: bold;
-    margin-top: 5%;
+  text-align: center;
+  color: #0045be;
+  font-size: 72px;
+  font-family: Merriweather, serif;
+  margin-bottom: 5%;
+  font-weight: bold;
+  margin-top: 5%;
 }
 
 .items-container {
-    display: flex;
-    justify-content: center;
-    padding-inline: 10%;
-    margin-top: -16%;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  padding-inline: 10%;
+  margin-top: -16%;
+  flex-wrap: wrap;
 }
 
 .item {
-    background-color: white;
-    width: 291px;
-    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 2%;
+  background-color: white;
+  width: 291px;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 2%;
 }
 
 .item-header {
-    letter-spacing: 2px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 20px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
 }
 
 .item-text {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 25.6px;
-    align-self: flex-start;
-    text-align: left;
-    overflow-wrap: break-word;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 25.6px;
+  align-self: flex-start;
+  text-align: left;
+  overflow-wrap: break-word;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .link {
-    text-underline-offset: 7px;
-    color: rgb(0, 62, 171);
+  text-underline-offset: 7px;
+  color: rgb(0, 62, 171);
 }
 
 .link:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .text-footer {
-    font-size: 0.8em;
-    color: white;
+  font-size: 0.8em;
+  color: white;
 }
 
 .img-main {
-    z-index: -1;
-    object-fit: contain;
+  z-index: -1;
+  object-fit: contain;
 }
 
 .burger-menu {
-    height: 40px;
+  height: 40px;
 }
 
 .bottom-section {
-    margin-top: 30px;
-    margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.no-drag {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.item-image {
+  background-size: cover;
 }
 
 @media (max-width: 989px) {
-    .main-header {
-        font-size: 48px;
-    }
+  .main-header {
+    font-size: 48px;
+  }
 
-    .navigation-item {
-        display: none;
-    }
+  .navigation-item {
+    display: none;
+  }
 
-    .burger-menu {
-        display: inherit;
-    }
+  .burger-menu {
+    display: inherit;
+  }
 
 
-    main {
-        margin-inline: 0%;
-    }
+  main {
+    margin-inline: 0%;
+  }
 
-    .main-section {
-        margin-inline: 0%;
-    }
+  .main-section {
+    margin-inline: 0%;
+  }
 }
 
 @media (min-width: 989px) {
-    .main-header {
-        font-size: 4.3em;
-    }
+  .main-header {
+    font-size: 4.3em;
+  }
 
-    .navigation-item {
-        display: inherit;
-    }
+  .navigation-item {
+    display: inherit;
+  }
 
-    .burger-menu {
-        display: none;
-    }
+  .burger-menu {
+    display: none;
+  }
 }
