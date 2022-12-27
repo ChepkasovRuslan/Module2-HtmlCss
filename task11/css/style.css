@@ -270,6 +270,14 @@ footer {
     font-size: 2.25rem;
   }
 
+  .dark-bg {
+    height: 850px;
+  }
+
+  .white-bg {
+    margin: 150px auto 50px;
+  }
+
   .sml-img-info {
     width: 360px;
     height: 381px;
