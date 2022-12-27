@@ -160,6 +160,10 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .background-image {
+    background-position: 62.31% 50%;
+  }
+
   .items-container {
     justify-content: left;
     margin-left: 33px;
@@ -181,7 +185,7 @@ footer {
 @media (max-width: 618px) {
   .item {
     width: 280px;
-    height: 313px;
+    height: 283px;
     min-width: 280px;
     min-height: 313px;
   }
