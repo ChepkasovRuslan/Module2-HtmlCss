@@ -37,10 +37,10 @@ footer {
 }
 
 .text-footer {
-  margin: 49px auto;
-  width: 417px;
   font-size: 0.875rem;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.6;
 }
 
