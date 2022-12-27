@@ -2,24 +2,24 @@ body {
   margin: 0;
 }
 
-.floating-message {
+.floatingMessage {
   transition: all 0.8s ease 0s;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   margin-top: -130px;
-  margin-left: -350px;
+  margin-left: -380px;
   width: 400px;
   display: flex;
   justify-content: center;
 
 }
 
-.floating-message:hover {
-  transform: translateX(90%);
+.floatingMessage:hover {
+  transform: translateX(94%);
 }
 
-.message-content {
+.messageContent {
   background-color: rgb(20, 39, 56);
   color: white;
   word-wrap: break-word;
@@ -33,11 +33,14 @@ body {
 }
 
 .callback {
+  width: 45px;
   background-color: rgb(201, 157, 48);
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 10px 10px 0px;
 }
 
-.callback>p {
+.callback p {
   writing-mode: vertical-lr;
-  margin-top: 5px;
+  margin: 0;
+  margin-top: 7px;
+  margin-left: 3px;
 }
