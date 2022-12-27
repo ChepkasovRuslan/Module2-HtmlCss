@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  width: 50%;
+}
+
+.battery {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15vw;
+  min-width: 233px;
+  min-height: 60px;
+  margin-top: 50px;
+}
+
+.corpus1 {
+  border: 6px solid black;
+  width: 95%;
+}
+
+.corpus2 {
+  border: 6px solid black;
+  height: 15%;
+  align-self: center;
+}
+
+.lowCharge {
+  background-color: brown;
+  width: 30%;
+  height: 100%;
+}
+
+.mediumCharge {
+  background-color: goldenrod;
+  width: 65%;
+  height: 100%;
+}
+
+.fullCharge {
+  background-color: darkgreen;
+  width: 100%;
+  height: 100%;
+}
