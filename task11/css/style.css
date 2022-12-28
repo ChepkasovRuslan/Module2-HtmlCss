@@ -1,0 +1,294 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 3%;
+  padding-bottom: 120px;
+  padding-inline: 25%;
+  background-color: #333333;
+}
+
+.nav-bar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-inline: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-page {
+  text-decoration: none;
+  color: rgb(71, 138, 201);
+  margin-left: 10px;
+}
+
+.burger-menu {
+  cursor: pointer;
+  height: 40px;
+}
+
+.no-drag {
+  -webkit-user-drag: none;
+}
+
+.content-info {
+  width: 460px;
+  display: inline;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+.big-img-info {
+  border: 15px solid transparent;
+  -webkit-user-drag: none;
+  object-fit: cover;
+  width: 565px;
+  height: 591px;
+}
+
+.info-text {
+  border: 15px solid transparent;
+}
+
+.sml-img-info {
+  -webkit-user-drag: none;
+  user-select: none;
+  display: inline-block;
+  align-self: flex-end;
+  border: 15px solid transparent;
+  width: 238px;
+  height: 255px;
+  object-fit: cover;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.text-info {
+  margin: 20px 0px 0px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.header-info {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color: rgb(241, 197, 14);
+  font-weight: 700;
+  font-size: 3.75rem;
+}
+
+.main-section {
+  justify-content: center;
+}
+
+.dark-bg {
+  background-color: rgb(41, 45, 51);
+  height: 467px;
+  width: 100%;
+}
+
+.white-bg {
+  margin: -440px auto 50px;
+  background-color: white;
+}
+
+.link {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.link a {
+  color: white;
+  text-underline-offset: 6px;
+}
+
+.link a:hover {
+  color: rgb(230, 230, 230);
+}
+
+.text-footer {
+  font-family: 'Open Sans', sans-serif;
+  width: 340px;
+  margin-top: 49px;
+  margin-bottom: 49px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.images-info {
+  display: flex;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 1000px) {
+  .nav-pages {
+    display: initial;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-pages {
+    display: none;
+  }
+
+  .burger-menu {
+    display: initial;
+  }
+}
+
+@media (max-width: 1200px) {
+  .big-img-info {
+    width: 514px;
+    height: 546px;
+  }
+
+  .sml-img-info {
+    width: 208px;
+    height: 223px;
+  }
+
+  .content-info {
+    width: 430px;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .info {
+    display: table-column;
+    margin-top: -980px;
+  }
+
+  .big-img-info {
+    width: 740px;
+    height: 778px;
+  }
+
+  .info-text {
+    width: 740px;
+  }
+
+  .images-info {
+    width: 740px;
+  }
+
+  .sml-img-info {
+    width: 375px;
+    height: 395px;
+  }
+
+  .dark-bg {
+    height: 1200px;
+  }
+
+  .white-bg {
+    margin: -200px auto 50px;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info {
+    display: table-column;
+    margin-top: -980px;
+  }
+
+  .big-img-info {
+    width: 560px;
+    height: 581px;
+  }
+
+  .info-text {
+    width: 560px;
+  }
+
+  .images-info {
+    display: table-column;
+  }
+
+  .sml-img-info {
+    width: 560px;
+    height: 581px;
+  }
+
+  .text-footer {
+    width: 100%;
+    min-width: 170px;
+  }
+}
+
+@media (max-width: 575px) {
+  .big-img-info {
+    width: 360px;
+    height: 381px;
+  }
+
+  .info-text {
+    width: 360px;
+  }
+
+  .images-info {
+    width: 360px;
+  }
+
+  .header-info {
+    font-size: 2.25rem;
+  }
+
+  .dark-bg {
+    height: 850px;
+  }
+
+  .white-bg {
+    margin: 150px auto 50px;
+  }
+
+  .sml-img-info {
+    width: 360px;
+    height: 381px;
+  }
+}
